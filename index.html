@@ -15,8 +15,14 @@
     <!--Bootstrap icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <!--Fim bootstrap icons-->
-    
+    <!--Deveicon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!--Fim Devicon-->
+
     <script src="menu.js" defer></script>
+    <script src="loading.js" defer></script>
+    <script src="enviarform.js" defer></script>
+
 </head>
 
 <body>
@@ -62,7 +68,7 @@
                         <li><a href="#contato">Contato</a></li>
                     </ul>
                 </nav>
-            </div>  <!-- menu-mobile-->          
+            </div> <!-- menu-mobile-->
             <div class="overlay-menu" id="overlay-menu"></div>
 
         </div> <!--interface-->
@@ -73,30 +79,26 @@
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
-                        <h1>Lorem ipsum dolor sit amet consectetur<span>.</span></h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, quisquam. Nam vel eius excepturi sapiente? 
-                            Explicabo, molestiae? Architecto rem quaerat, necessitatibus, obcaecati dicta culpa, totam praesentium facilis 
-                            explicabo doloribus sint! Sunt corporis corrupti provident! Qui alias soluta exercitationem perspiciatis at ipsam 
-                            illo, iure excepturi maxime reiciendis, nam suscipit magni repellat repellendus laborum voluptas nulla incidunt 
-                            dolores magnam saepe possimus tenetur? Quasi, atque, eius ipsum, a veniam blanditiis porro quisquam quibusdam error 
-                            facere ab rem in animi incidunt culpa ducimus deserunt! Quo cumque necessitatibus deleniti ullam iure. Animi ratione 
-                            aliquid eligendi. Atque placeat animi, eius similique eaque maiores illo exercitationem delectus? Odio dolores nulla 
-                            dolorum aliquid perspiciatis et commodi blanditiis, neque voluptatum unde id nam optio inventore sed natus possimus 
-                            excepturi?</p>     
-
+                        <h1>DESENVOLVENDO SONHOS EM IDÉIAS REAIS DIGITAIS<span>.</span></h1>
+                        <p>Dedicação, inovação, criatividade e paixão pela excelência. Combinados com um amor crescente
+                            pela programação
+                            e vontade de evoluir constantemente a cada novo projeto e desafio encontrado, permitem
+                            entregas únicas em que
+                            os sonhos viram realidade. O meu sonho é tornar seus sonhos em realidade
+                            digital<span>.</span>
                         <div class="btn-contato">
                             <a href="#contato">
                                 <button>Entre em contato</button>
                             </a>
                         </div> <!--btn-contato-->
-                    </div>  <!--txt topo site --> 
-                <div class="img-topo-site">
-                    <img src="images/Foto Perfil.jpg" alt="Foto de perfil">
-                </div> <!-- img topo site-->    
+                    </div> <!--txt topo site -->
+                    <div class="img-topo-site">
+                        <img src="images/LCC perfil.jpg" alt="Foto de perfil">
+                    </div> <!-- img topo site-->
                 </div> <!--flex-->
             </div> <!-- interface -->
         </section> <!--topo do site -->
-    
+
         <section id="habilidades" class="especialidades">
             <div class="interface">
                 <h2 class="titulo">Minhas <span>Habilidades.</span></h2>
@@ -104,27 +106,39 @@
                     <div class="especialidades-box">
                         <i class="bi bi-code-square"></i>
                         <h3>Website</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam impedit officiis vero! 
-                            Quibusdam sapiente sequi possimus exercitationem impedit labore architecto quo totam.</p>
-                    </div> <!-- especialidades- box-->
+                        <p>Criação de Website únicos, personalizados e adaptaveis a qualquer tipo de tela, seja um
+                            smartwatch, celular ou um computador convencional.</p>
+                    </div> <!--especialidades- box-->
 
                     <div class="especialidades-box">
                         <i class="bi bi-cart"></i>
                         <h3>loja online</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam impedit officiis vero! 
-                            Quibusdam sapiente sequi possimus exercitationem impedit labore architecto quo totam.</p>
-                    </div> <!-- especialidades- box-->
+                        <p>Criação de sites com foco na maximização das vendas, visibilidade e crescimento do seu
+                            negócio.</p>
+                    </div> <!--especialidades- box-->
 
                     <div class="especialidades-box">
                         <i class="bi bi-book"></i>
                         <h3>Blog</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam impedit officiis vero! 
-                            Quibusdam sapiente sequi possimus exercitationem impedit labore architecto quo totam.</p>
-                    </div> <!-- especialidades- box-->
+                        <p>Criação de blogs totalmente personalizados e estilizados, onde suas informações estaram
+                            disponíveis em qualquer dispositivo.</p>
+                    </div> <!--especialidades- box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-terminal"></i>
+                        <h3>Linguagens</h3>
+                        <i class="devicon-javascript-plain"></i>
+                        <i class="devicon-python-plain-wordmark"></i>
+                        <i class="devicon-php-plain"></i>
+                        <i class="devicon-mysql-plain-wordmark"></i>
+                        <i class="devicon-html5-plain-wordmark"></i>
+                        <i class="devicon-css3-plain-wordmark"></i>
+                    </div> <!--especialidades- box-->
+                
                 </div> <!--flex-->
             </div> <!-- interface-->
         </section> <!--especialidades-->
-    
+
         <section id="sobre" class="sobre">
             <div class="interface">
                 <div class="flex">
@@ -134,36 +148,48 @@
                     </div> <!--img-sobre-->
                     <div class="txt-sobre">
                         <h2>MUITO PRAZER, <span>SOU LUCAS CAMPOS CARVALHO.</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa et sint beatae obcaecati quibusdam, similique iste 
-                        neque quis veritatis nam itaque alias voluptate esse voluptates. Itaque corporis placeat deleniti eaque. Soluta quasi 
-                        quod deserunt optio rerum! Voluptatum culpa libero animi laborum quas sint expedita dicta consectetur enim. Ipsam 
-                        accusamus quae, odit nostrum, enim, in voluptatem quam corporis quibusdam ducimus distinctio.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa et sint beatae obcaecati quibusdam, similique iste 
-                        neque quis veritatis nam itaque alias voluptate esse voluptates. Itaque corporis placeat deleniti eaque. Soluta quasi 
-                        quod deserunt optio rerum! Voluptatum culpa libero animi laborum quas sint expedita dicta consectetur enim. Ipsam 
-                        accusamus quae, odit nostrum, enim, in voluptatem quam corporis quibusdam ducimus distinctio.</p>
+                        <p>Tenho 29 anos e minha história com programação começou como um simples hobbie, onde estudava 
+                            e desenvolvia projetos com amigos. Porém, cada vez mais fui me apaixonando pela programação 
+                            e não me via mais trabalhando em outra área. Por isso, decidi me profissionalizar na área e 
+                            atualmente estou no segundo ano da graduação de Sistemas de informação.</p>
+                        <p>Já realizei diversos cursos de lógica computacional, Front-end, Back-end e Desenvolvimento Web,
+                            bem como busco constantemente desafios através de novos projetos, pois faço das palavras de 
+                            Aristóteles as minhas: </p>
+                            <blockquote>
+                                <p>"Somos o que repetidamente fazemos. A excelência, portanto, não é um efeito, mas um hábito.”</p>
+                                <cite>Aristóteles</cite>
+                            </blockquote>
+                        <p>Também sou graduado em administração, apesar de não ter muita relação com a área de programação, 
+                            acredito ser um diferencial para identificar e lidar com as necessidades dos clientes, trabalho de equipe, 
+                            gestão de demandas e também a ter uma organização efetiva.</p>
+                        <p>Por fim, nos tempos vagos gosto de jogar jogos eletrônicos, tocar flauta e praticar Karate.</p>
                         <div class="btn-social">
-                            <a href="https://www.instagram.com/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
-                            <a href="https://www.youtube.com/" target="_blank"><button><i class="bi bi-youtube"></i></button></a>
-                            <a href="https://br.linkedin.com/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://wa.me/5521967650805" target="_blank"><button><i
+                                        class="bi bi-whatsapp"></i></button></a>
+                            <a href="https://github.com/LCampCarvalho" target="_blank"><button><i
+                                        class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/lcampcarvalho" target="_blank"><button><i
+                                        class="bi bi-linkedin"></i></button></a>
+                            <a href="https://t.me/+5521967650805" target="_blank"><button><i
+                                        class="bi bi-telegram"></i></button></a>
                         </div> <!-- btn-social-->
                     </div> <!--txt-sobre-->
-                </div> <!--flex-->            
+                </div> <!--flex-->
             </div> <!--interface-->
         </section> <!--sobre-->
-        
+
         <section id="projetos" class="portifolio">
             <div class="interface">
                 <h2 class="titulo">MEU <span>PORTIFÓLIO.</span></h2>
                 <div class="flex">
-                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
-                        <div class="overlay">Projeto 1</div>
+                    <div class="img-port" style="background-image: url(images/imagemsite.png);">
+                        <div class="overlay">Projeto Meu Site Portifólio</div>
                     </div>
                     <div class="img-port" style="background-image: url(images/imagem.jpg);">
-                        <div class="overlay">Projeto 2</div>
+                        <div class="overlay">Em breve!</div>
                     </div>
                     <div class="img-port" style="background-image: url(images/imagem.jpg);">
-                        <div class="overlay">Projeto 3</div>
+                        <div class="overlay">Em breve!</div>
                     </div>
 
                 </div> <!--flex-->
@@ -174,16 +200,20 @@
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
 
-                <form method="POST" action="envia.php">
+                <form>
                     <input type="text" name="nome" id="nome" placeholder="Seu nome completo:" required>
                     <input type="text" name="email" id="email" placeholder="Seu e-mail:" required>
                     <input type="text" name="telefone" id="telefone" placeholder="Seu celular:" required>
                     <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem" required></textarea>
-                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                    <button class="btn-enviar-form" type="submit" name="enviar" id="enviar">
+                        ENVIAR
+                    </button>
+
                 </form>
-                </div> <!--interface-->
+
+            </div> <!--interface-->
         </section> <!--formulario-->
-    
+
     </main> <!-- main -->
 
     <footer>
@@ -194,15 +224,21 @@
                         <img class="config-logo" src="images/logosemfundo.png" alt="Logotipo LCC">
                     </div> <!--logo-footer-->
                     <div class="btn-social">
-                        <a href="https://www.instagram.com/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
-                        <a href="https://www.youtube.com/" target="_blank"><button><i class="bi bi-youtube"></i></button></a>
-                        <a href="https://br.linkedin.com/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
-                    </div> <!-- btn-social-->    
+                        <a href="https://wa.me/5521967650805" target="_blank"><button><i
+                                    class="bi bi-whatsapp"></i></button></a>
+                        <a href="https://github.com/LCampCarvalho" target="_blank"><button><i
+                                    class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/lcampcarvalho" target="_blank"><button><i
+                                    class="bi bi-linkedin"></i></button></a>
+                        <a href="https://t.me/+5521967650805" target="_blank"><button><i
+                                    class="bi bi-telegram"></i></button></a>
+                    </div> <!-- btn-social-->
                 </div>
             </div> <!--line-footer-->
             <div class="line-footer borda">
-                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:lcc.sistems.info@gmail.com">lcc.sistems.info@gmail.com
-                </a></p>
+                <p><i class="bi bi-envelope-fill"></i> <a
+                        href="mailto:lcc.sistems.info@gmail.com">lcc.sistems.info@gmail.com
+                    </a></p>
             </div> <!--line-footer-->
         </div> <!-- interface -->
     </footer>
